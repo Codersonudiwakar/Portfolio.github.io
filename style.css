@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(72, 72, 72);
+}
+.nav-item {
+    margin-right: 100px;
+    color: white    ;
+}
+.nav-item a{
+    margin-right: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.navbar-brand {
+    font-size: 50PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bold;
+    
+}
+
+.navbar-brand{
+    color:white;
+    animation: Sonu 3s infinite;
+  }
+  
+  @keyframes Sonu {
+    from {color:white;}
+    to {color:aqua;}
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color: white;
+  }
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.col1 {
+    height: auto;
+    width: 25%;
+    background-color:rgb(40, 189, 144);
+    box-sizing: border-box;
+}
+
+.col1 h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img-thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.social-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.social-icon ul {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: auto;
+    overflow: hidden;
+    display: block;
+
+}
+
+.social-icon li {
+    float: left;
+}
+
+.social-icon li a {
+    text-decoration: none;
+}
+
+.social-icon a img {
+
+    width: 50px;
+    height: 50px;
+    padding-right: 1px;
+
+}
+
+.details {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.details ul {
+    box-sizing: border-box;
+}
+
+.details li {
+    list-style: none;
+
+}
+
+.details img {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.details h2 {
+    color: white;
+    text-align: center;
+
+}
+
+.details p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.skills{
+    margin-top:80px;
+
+}
+.skills h2{
+    font-size: 45px;
+    border-top: 1px solid gray;
+}
+.skills ul{
+    color: white;
+    text-align: center;
+    font: bold;
+}
+.skills ul li{
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    font: bold;
+
+}
+
+/* .col2 .big-img {
+    min-height: 200px;
+    height: auto;
+    width: auto;
+    min-width: 200px;
+    max-width: 500px;
+    max-height: 600px;
+} */
+
+/* seconad olume design here */
+
+.col2 {
+    text-align: center;
+    float: left;
+    flex: 1;
+    width: 75%;
+    background-color:gray;
+}
+
+.col2 section {
+    float: left;
+}
+
+.col2 section img {
+    opacity: 80%;
+    float: right;
+    width: 100%;
+}
+
+.sec1 {
+    width: 50%;
+    padding: 20px;
+}
+
+.sec2 {
+    width: 45%;
+    opacity:90%;
+}
+.sec2 img{
+    border-radius: 10%;
+}
+
+h1 {
+    font-size: 48px;
+    width: 100%;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(15) infinite alternate,
+        blink 800ms steps(15) infinite normal;
+    border-right: 2px solid black;
+    padding: 15px;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+.sec1 button{
+    padding:8px 12px;
+    background-color:rgb(40, 189, 144);
+    color: white;
+    border:rgb(40, 189, 144);
+    border-radius: 5px;
+
+}
+.sec1 button a{
+    color: white;
+    text-decoration: none;
+    border:rgb(40, 189, 144);
+
+}
+.knowledge{
+    font-size: 50px;
+color: white;
+margin-top:30px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box section {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(102, 96, 96);
+    width: 49%;
+    min-width: auto;
+    margin: 3px;
+    color: white;
+    float: left;
+    flex: 1;
+}
+.box section img{
+    height: 250px;
+}
+    h3{
+        animation-name: h3;
+        animation: h3 4s infinite;
+        color: white;
+      }
+      
+      @keyframes h3 {
+        from {color:white;}
+        to {color: yellow;}
+      }
+.box section h3 {
+
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+@media(max-width:1000px){
+    .box section{
+        width: 30%;
+    }
+}
+@media(max-width:750px){
+    .box section{
+        width: 100%;
+    }
+}
+
+.bio {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project {
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.box-project{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-project section {
+    border-radius: 5px;
+    background-color: rgb(102, 96, 96);
+    backface-visibility: 50%;
+    width:100%;
+    min-width: auto;
+    float: left;
+    margin-top: 10px;
+    border: 2px solid white;
+    flex: 1;
+}
+.box-project ul{
+    text-align: left;
+    list-style:disc;
+    padding-left:25px;
+    }   
+.box-project ul li{
+    padding: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* footer desugn stRT here */
+footer {
+    background: rgb(56, 54, 54);
+  }
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-nav-item {
+    width: 25%;
+    height: 300px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background: rgb(56, 54, 54);
+  }
+  
+  .footer-nav-item h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+  }
+  .footer-nav-item a{
+    color: white;
+  }
+  
+  .footer-nav-item li {
+    font-size: 20px;
+    color: black;
+    margin-right: 15px;
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  @media(max-width:1000px) {
+    .footer-nav-item {
+      width: 45%;
+    }
+  }
+  
+  @media(max-width:750px) {
+    .footer-nav-item {
+      width: 100%;
+    }
+  }
+  
+  
